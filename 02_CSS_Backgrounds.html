@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Backgrounds</title>
+	<style>
+		#bg-color {
+			background-color: teal;
+		}
+		.backgroundImage {
+			background:url("background.jpg");
+		}
+		.imagePosition {
+			width: 600px;
+			background: url("img/nature.jpg") no-repeat 0 40px;
+		}
+		.imageRepeat {
+			width: 600px;
+			display: table;
+			background: #fff url("img/nature.jpg") repeat-x 0 0px;
+		}
+	</style>
+</head>
+<body>
+
+<!-- BACKGROUND COLOR -->
+<p id="bg-color">I am TEAL background</p>
+
+<!-- BACKGROUND IMAGE -->
+<div class="backgroundImage">
+	<p>I have a Background Image</p>
+</div>
+<br>
+<!-- BACKGROUND IMAGE POSITION -->
+<div class="imagePosition">
+	<img src="img/nature.jpg" alt="nature">
+</div>
+<br>
+<!-- BACKGROUND IMAGE REPEAT -->
+<div class="imageRepeat">
+	<img src="img/nature.jpg">
+</div>
+
+</body>
+</html>

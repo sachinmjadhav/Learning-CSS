@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Borders</title>
+</head>
+<style>
+	div {
+		background-color: gray;
+		color: white;
+		padding: 10px;
+		margin: 5px;
+		width: 300px;
+	}
+	#border-top {
+		border-top: 7px solid seagreen;
+	}
+	#border-right {
+		border-right: 7px solid red;
+	}
+	#border-bottom {
+		border-bottom: 7px dotted black;
+	}
+	#border-left {
+		border-left: 7px solid yellow;
+	}
+	#border-all {
+		border:7px solid black;
+	}
+	#round-border {
+		border: 7px solid red;
+		border-radius: 10px;
+		background-color: white;
+		color: black;
+	}
+	#border-two-sides {
+		border:7px solid seagreen;
+		background-color: white;
+		color: black;
+		border-radius: 20px 0 20px 0;
+	}
+	#dotted-border {
+		border:5px dotted seagreen;
+		background-color: white;
+		color: black;
+		border-radius: 0 20px 0 20px;
+	}
+	#dashed-all-sides {
+		border:5px dashed black;
+		background-color: white;
+		color: black;
+	}
+	#custom-border {
+		border-top: 5px solid red;
+		border-right: 10px solid blue;
+		border-bottom: 15px solid yellow;
+		border-left: 20px solid black;
+		color: white;
+		background-color: seagreen;
+		padding:10px;
+	}
+	#youtube-border {
+		border-top: 15px solid red;
+		border-right: 20px solid black;
+		border-bottom: 15px solid yellow;
+		border-left: 20px solid black;
+		color: white;
+		background-color: seagreen;
+		width: 560px;
+		height: 315px;
+	}
+</style>
+<body>
+
+<!-- BORDER TOP -->
+<div id="border-top">
+	<h2>Border Top</h2>
+</div>
+
+<!-- BORDER RIGHT -->
+<div id="border-right">
+	<h2>Border Right</h2>
+</div>
+
+<!-- BORDER BOTTOM -->
+<div id="border-bottom">
+	<h2>Border Bottom</h2>
+</div>
+
+<!-- BORDER LEFT -->
+<div id="border-left">
+	<h2>Border Left</h2>
+</div>
+<!-- BORDER ALL SIDES -->
+<div id="border-all">
+	<h2>Border All Sides</h2>
+</div>
+<!-- ROUNDER BORDER ALL SIDES -->
+<div id="round-border">
+	<h2>Rounder Border</h2>
+</div>
+<!-- BORDER RADIUS TWO SIDES -->
+<div id="border-two-sides">
+	<h2>Border Radius Two Sides</h2>
+</div>
+
+<!-- DOTTED BORDER ALL SIDES -->
+<div id="dotted-border">
+	<h2>Dotted Border All Sides</h2>
+</div>
+
+<!-- DASHED BORDER ALL SIDES -->
+<div id="dashed-all-sides">
+	<h2>Dashed Border All Sides</h2>
+</div>
+
+<!-- CUSTOM BORDER -->
+<div id="custom-border">
+	<h2>Custom Border</h2>
+</div>
+ <!-- BORDER FOR YOUTUBE VIDEO -->
+ <div id="youtube-border">
+ 	<iframe width="560" height="315" src="https://www.youtube.com/embed/RF7DhGIQE1k?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+ </div>
+</body>
+</html>
