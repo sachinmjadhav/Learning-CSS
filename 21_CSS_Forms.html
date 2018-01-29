@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS forms</title>
+    <style>
+      body {
+        font-family: "Helvetica Neue", sans-serif;
+      }
+      #custom-form {
+      background-image: url("img/bg.jpg");
+      background-position: left;
+      background-repeat: no-repeat;
+      border: 2px solid darkcyan;
+      padding: 15px;
+      width: 270px;
+      border-radius: 7px;
+      margin-left: 100px;
+      font-size: 25px;
+      text-align: center;
+      }
+      #custom-form h2 {
+        color: darkcyan;
+      }
+      input[type="text"], input[type="password"] {
+        margin: 10px;
+        height: 40px;
+        font-size: 25px;
+        border-radius: 7px;
+        border: 2px solid darkcyan;
+        text-align: center;
+      }
+      input[type="text"]:focus, input[type="password"]:focus {
+        font-size: 25px;
+        outline: none;
+      }
+      input[type="Submit"] {
+        background-color: darkcyan;
+        color: white;
+        border: none;
+        padding: 14px 50px;
+        margin: 15px;
+        border-radius: 7px;
+        font-size: 22px;
+      }
+      input[type="Submit"]:hover {
+        background-color: #1b526b;
+        cursor: pointer;
+        box-shadow: 3px 3px 7px cyan, -3px -3px 7px cyan;
+      }
+    </style>
+</head>
+<body>
+
+  <div id="custom-form">
+    <h2>Please Sign in</h2>
+    <input type="text" placeholder="Enter your name" size="15">
+    <br>
+    <input type="password" placeholder="Enter password" size="15">
+    <br>
+    <input type="Submit" value="Submit">
+  </div>
+
+</body>
+</html>
